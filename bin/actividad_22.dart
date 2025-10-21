@@ -3,7 +3,7 @@
 // resuelva cuánto tiempo tardan los otros baldes.
 
 void main() {
-  const double tiempoPorLitro = 1.5; // 1 litro tarda 1.5 horas
+  const double tiempoPorLitro = 1.5; 
 
   final Map<int, double> baldes = {
     1: tiempoPorLitro * 1,

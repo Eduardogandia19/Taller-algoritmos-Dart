@@ -12,11 +12,11 @@ import 'dart:io';
 void main() {
   stdout.write("Ingrese el monto del préstamo: ");
   final double monto = double.parse(stdin.readLineSync()!);
-  const double tasa = 0.05; // 5% anual
+  const double tasa = 0.05;
   const int plazoAnios = 5;
 
   final double interesesAnio = monto * tasa;
-  final double interesesTrimestre3 = interesesAnio / 4; // 1 trimestre = 1/4 del año
+  final double interesesTrimestre3 = interesesAnio / 4; 
   final double interesesMes1 = interesesAnio / 12;
   final double totalIntereses = interesesAnio * plazoAnios;
   final double totalConInteres = monto + totalIntereses;
